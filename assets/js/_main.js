@@ -92,10 +92,6 @@
     if ($section.length) {
       var topVal = Math.max($section.offset().top - 73, 0);
       $('html, body').animate({scrollTop: topVal}, 300);
-
-      removeActiveLinks();
-
-      $(this).parent().addClass('active');
     }
   });
 
