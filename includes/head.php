@@ -8,6 +8,6 @@
 
   <script type="text/javascript" src="//use.typekit.net/kom1ckp.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <!--[if lt IE 9]><script src="/assets/js/ie.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="assets/js/ie.js"></script><![endif]-->
 </head>
 <body>
