@@ -63,7 +63,8 @@ module.exports = function(grunt) {
       js: {
         files: [
           'assets/js/**/*.js',
-          '!assets/js/main.min.js'
+          '!assets/js/main.min.js',
+          '!assets/js/ie.js'
         ],
         tasks: ['uglify']
       },
