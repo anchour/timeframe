@@ -12,6 +12,7 @@ module.exports = function(grunt) {
     // Sass task
     clean: [
       'assets/js/main.min.js',
+      'assets/js/ie.js',
       'assets/css/styles.min.css'
     ],
     sass: {
@@ -42,6 +43,10 @@ module.exports = function(grunt) {
             'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js',
             'bower_components/jquery.lazyload/jquery.lazyload.js',
             'assets/js/_*.js'
+          ],
+          'assets/js/ie.js': [
+            'bower_components/html5shiv/dist/html5shiv.js',
+            'bower_components/respond/dest/respond.src.js'
           ]
         }
       }
