@@ -40,6 +40,7 @@ module.exports = function(grunt) {
           'assets/js/main.min.js': [
             'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js',
             'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js',
+            'bower_components/jquery.lazyload/jquery.lazyload.js',
             'assets/js/_*.js'
           ]
         }
@@ -48,7 +49,7 @@ module.exports = function(grunt) {
     watch: {
       grunt: {
         files: ['Gruntfile.js'],
-        tasks: ['sass']
+        tasks: ['sass', 'uglify']
       },
       sass: {
         files: 'assets/scss/**/*.scss',
