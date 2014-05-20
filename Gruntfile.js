@@ -10,6 +10,10 @@ module.exports = function(grunt) {
       '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
       ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
     // Sass task
+    clean: [
+      'assets/js/main.min.js',
+      'assets/css/styles.min.css'
+    ],
     sass: {
       options: {
         // Get the bootstrap path for compiling.
@@ -28,6 +32,16 @@ module.exports = function(grunt) {
         files: {
           'assets/css/styles.min.css' : 'assets/scss/styles.scss'
         },
+      }
+    },
+    uglify: {
+      dist: {
+        files: {
+          'assets/js/main.min.js': [
+            'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js',
+            'assets/js/_*.js'
+          ]
+        }
       }
     },
     watch: {
@@ -54,10 +68,12 @@ module.exports = function(grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['clean', 'uglify', 'sass']);
 
 };
