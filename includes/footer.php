@@ -1,3 +1,14 @@
+
+<section class="grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center slogan">
+        <strong>TimeFrame</strong> <br> a truly helpful calendar app.
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer class="content-info">
   <div class="container">
     <div class="row">
