@@ -62,12 +62,12 @@
 
     for (var i = $sections.length - 1; i >= 0; i--) {
       var s = $sections[i],
-          sectionTop = Number( s.offset().top ),
-          sectionBottom = sectionTop + Number(s.outerHeight()),
+          sectionTop = Number( s.offset().top ) - 73,
+          sectionBottom = sectionTop + Number(s.outerHeight()) - 73,
           href,
           activeLink;
 
-      if (windowTop >= sectionTop && windowTop <= sectionBottom ) {
+      if (windowTop >= sectionTop && windowTop <=  sectionBottom ) {
         // Get the link href.
         sectionId = '#' + s.attr('id');
 
