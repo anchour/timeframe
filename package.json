@@ -1,0 +1,22 @@
+{
+  "name": "baseplate",
+  "version": "1.0.0",
+  "description": "Literally just a pre-configured setup for a flat site.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrobit/baseplate"
+  },
+  "author": "Matt Robitaille <matt@anchour.com>",
+  "bugs": {
+    "url": "https://github.com/mrobit/baseplate/issues"
+  },
+  "homepage": "https://github.com/mrobit/baseplate",
+  "devDependencies": {
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^0.4.4"
+  },
+  "scripts": {
+    "postinstall" : "bower install"
+  }
+}

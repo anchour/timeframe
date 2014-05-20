@@ -1,0 +1,21 @@
+{
+  "name": "baseplate",
+  "version": "1.0.0",
+  "authors": [
+    "Matthew Robitaille <matt@anchour.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "https://github.com/mrobit/baseplate",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-grid-sass": "~1.1.0"
+  }
+}
