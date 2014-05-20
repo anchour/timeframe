@@ -1,0 +1,41 @@
+.iphone {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-repeat: no-repeat;
+
+  @include background-size(100% auto);
+
+  img {
+    display: block;
+    height: auto !important;
+    max-width: 100%;
+  }
+}
+.iphone-wrap {
+  padding: 0 20px;
+}
+
+#main-top {
+  background-image: url(/assets/img/phones/truly-fresh-perspective.png);
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .iphone {
+    float: right;
+    margin-right: 20px;
+  }
+  .iphone-wrap {
+    padding: 0;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #main-top {
+    background-image: url(/assets/img/phones/truly-fresh-perspective@2x.png);
+  }
+}

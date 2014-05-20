@@ -1,4 +1,4 @@
-<header class="banner">
+  <header class="banner">
   <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -25,10 +25,21 @@
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container header-content-wrap">
     <div class="row">
-      <div class="col-sm-12">
-        <div class="iphone image pull-right" id="main-top"></div>
+      <div class="iphone-wrap">
+        <div class="iphone" id="main-top">
+          <img src="/assets/img/phones/phone-size.png" alt="" width="326" height="680">
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-7 header-content">
+        <div class="cell">
+          <h1>A Truly Fresh Perspective</h1>
+          <p>
+            Say goodbye to clutter. Just one glance at TimeFrame shows you when you're free, and what you're doing when you're not.
+          </p>
+        </div>
       </div>
     </div>
   </div>

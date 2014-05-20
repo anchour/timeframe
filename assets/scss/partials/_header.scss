@@ -1,11 +1,14 @@
 .banner {
   background: $header-bg-image bottom center;
+  color: $header-text-color;
+  text-align: center;
 
   @include background-size(cover);
 }
 
-.navbar {
+.banner .navbar {
   margin-bottom: 0;
+  text-align: left;
 }
 
 .navbar-nav {
@@ -18,8 +21,48 @@
 }
 
 @media screen and (min-width: $screen-sm-min) {
+
   .banner {
-    height: 320px;
+    min-height: 770px;
+    text-align: left;
+
+    h1,
+    .h1 {
+      font-size: $font-size-h1-sm;
+      margin-bottom: 20px;
+    }
+  }
+
+  .header-content {
+    display: table;
+    font-size: 20px;
+    font-weight: 400;
+    height: 667px;
+    line-height: 1.6;
+
+    .cell {
+      display: table-cell;
+      vertical-align: middle;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: $screen-md-min) {
+  .banner {
+    h1,
+    .h1 {
+      font-size: $font-size-h1-md;
+    }
+  }
+}
+
+@media screen and (min-width: $screen-lg-min) {
+  .banner {
+    h1,
+    .h1 {
+      font-size: $font-size-h1-lg;
+    }
   }
 }
 

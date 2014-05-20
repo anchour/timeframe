@@ -1,7 +1,7 @@
 $font-family-sans-serif: "omnes-pro", 'Helvetica Neue', Helvetica, sans-serif !default;
 
 // Navbar
-$navbar-height: 103px;
+$navbar-height: 73px;
 $navbar-default-bg: transparent;
 $navbar-default-border: transparent;
 
@@ -16,3 +16,13 @@ $header-bg-image: url(/assets/img/banner.jpg);
 $header-bg-image-2x: url(/assets/img/banner@2x.jpg);
 $header-brand-bg-image: url(/assets/img/brand.png);
 $header-brand-bg-image-2x: url(/assets/img/brand@2x.png);
+$header-text-color: #fff;
+
+// Type
+$font-size-base: 16px;
+$font-size-h1: 26px;
+$headings-font-weight: 500;
+
+$font-size-h1-sm: 36px;
+$font-size-h1-md: 48px;
+$font-size-h1-lg: 54px;
