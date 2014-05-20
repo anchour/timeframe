@@ -1,6 +1,7 @@
 .banner {
   background: $header-bg-image #333 center center no-repeat;
   color: $header-text-color;
+  padding-top: 73px;
   text-align: center;
 
   @include background-size(cover);
@@ -11,6 +12,7 @@
 }
 
 .banner .navbar {
+  background: $navbar-bg;
   margin-bottom: 0;
   text-align: left;
 }
