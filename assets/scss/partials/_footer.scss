@@ -1,0 +1,42 @@
+.content-info {
+  background: $footer-bg;
+  color: $footer-text-color;
+  font-size: $footer-font-size;
+  padding: 10px 0 0;
+
+  .copyright {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-nav {
+    margin: 10px 0 10px -8px;
+
+    a {
+      display: block;
+      padding: 5px 8px;
+    }
+  }
+
+  .utility {
+    background: darken($footer-bg, 5%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .content-info {
+    .copyright {
+      text-align: left;
+    }
+
+    .utility {
+      background: transparent;
+      padding-bottom: 60px;
+      padding-top: 60px;
+      text-align: right;
+    }
+  }
+}
