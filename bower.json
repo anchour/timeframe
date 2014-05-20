@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-grid-sass": "~1.1.0"
+    "bootstrap-grid-sass": "~1.1.0",
+    "bootstrap-sass-official": "~3.1.1+2"
   }
 }
