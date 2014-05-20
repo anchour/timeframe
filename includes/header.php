@@ -1,4 +1,4 @@
-  <header class="banner">
+  <header class="banner" id="top">
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -16,7 +16,7 @@
 
       <div class="collapse navbar-collapse navbar-right" id="navbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="#top">Home</a></li>
           <li><a href="#features">Features</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#app-store">App Store</a></li>

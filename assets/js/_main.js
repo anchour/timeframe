@@ -39,7 +39,8 @@
     var $section = $( $(this).attr('href') );
 
     if ($section.length) {
-      $('html, body').animate({scrollTop: $section.offset().top}, 300);
+      var topVal = Math.max($section.offset().top - 73, 0);
+      $('html, body').animate({scrollTop: topVal}, 300);
     }
   });
 }(jQuery);
