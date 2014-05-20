@@ -19,7 +19,9 @@
           <li><a href="/terms"> Terms and Conditions</a></li>
         </ul>
 
-        <p class="copyright">&copy;<?php echo date('Y');?> Copyright Ten David. All Rights Reserved.</p>
+        <p class="copyright">&copy;<?php echo date('Y');?> Copyright Ten David. All Rights Reserved. <br>
+        Designed in collaboration with <a href="//anchour.com" target="_blank">Anchour</a>
+        </p>
       </div>
       <div class="col-sm-6 utility">
         <a class="back-to-top" href="#">Back to Top</a>
