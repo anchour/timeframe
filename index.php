@@ -9,7 +9,7 @@ include $includesPath . 'header.php';
 ?>
 
 <main role="main">
-  <section class="white">
+  <section class="white" id="features">
     <div class="container">
       <div class="row">
 
@@ -35,7 +35,7 @@ include $includesPath . 'header.php';
     </div>
   </section>
 
-  <section class="color">
+  <section class="color" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-sm-offset-0 col-md-6 col-md-offset-6 col-lg-8 col-lg-offset-4">
@@ -59,7 +59,7 @@ include $includesPath . 'header.php';
     </div>
   </section>
 
-  <section class="white">
+  <section class="white" id="app-store">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-8">

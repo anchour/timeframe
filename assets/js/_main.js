@@ -29,3 +29,17 @@
     effect : "fadeIn"
   });
 }(jQuery);
+
++function($) {
+  var $links = $('.nav a');
+
+  $links.on('click', function(e) {
+    e.preventDefault();
+
+    var $section = $( $(this).attr('href') );
+
+    if ($section.length) {
+      $('html, body').animate({scrollTop: $section.offset().top}, 300);
+    }
+  });
+}(jQuery);
