@@ -1,0 +1,4 @@
+@mixin background-size($size) {
+  -webkit-background-size: $size;
+  background-size: $size;
+}

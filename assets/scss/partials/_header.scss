@@ -1,0 +1,30 @@
+.banner {
+  background: $header-bg-image bottom center;
+
+  @include background-size(cover);
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-nav {
+  margin: 0 -15px;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .banner {
+    height: 320px;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .banner {
+    background: $header-bg-image-2x;
+  }
+}

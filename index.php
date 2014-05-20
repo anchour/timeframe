@@ -5,9 +5,8 @@
 $includesPath = __DIR__ . '/includes/';
 
 include $includesPath . 'head.php';
+include $includesPath . 'header.php';
 ?>
-
-  <?php // your content goes here! ?>
 
 <?php
 include $includesPath . 'footer.php';

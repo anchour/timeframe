@@ -39,6 +39,7 @@ module.exports = function(grunt) {
         files: {
           'assets/js/main.min.js': [
             'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js',
+            'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js',
             'assets/js/_*.js'
           ]
         }
