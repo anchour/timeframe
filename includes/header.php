@@ -29,7 +29,7 @@
     <div class="row">
       <div class="iphone-wrap">
         <div class="iphone right" id="main-top">
-          <img src="/assets/img/phones/phone-size.png" alt="" width="326" height="680">
+          <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
         </div>
       </div>
 

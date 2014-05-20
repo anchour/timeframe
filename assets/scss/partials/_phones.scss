@@ -19,7 +19,7 @@
   // Lazyload plugin functionality. Uses just a transparent bg
   // which is swapped out when the user scrolls down to it.
   &.lazy {
-    background-image: url(/assets/img/phones/phone-size.png);
+    background-image: url(../img/phones/phone-size.png);
   }
 }
 .iphone-wrap {
@@ -27,7 +27,7 @@
 }
 
 #main-top {
-  background-image: url(/assets/img/phones/truly-fresh-perspective.png);
+  background-image: url(../img/phones/truly-fresh-perspective.png);
 }
 
 @media screen and (min-width: $screen-sm-min) {
@@ -41,6 +41,6 @@
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   #main-top {
-    background-image: url(/assets/img/phones/truly-fresh-perspective@2x.png);
+    background-image: url(../img/phones/truly-fresh-perspective@2x.png);
   }
 }
