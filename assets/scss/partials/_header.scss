@@ -21,7 +21,6 @@
 }
 
 @media screen and (min-width: $screen-sm-min) {
-
   .banner {
     min-height: 770px;
     text-align: left;
@@ -30,6 +29,10 @@
     .h1 {
       font-size: $font-size-h1-sm;
       margin-bottom: 20px;
+    }
+
+    .iphone {
+      float: right;
     }
   }
 

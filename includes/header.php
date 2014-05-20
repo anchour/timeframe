@@ -28,7 +28,7 @@
   <div class="container header-content-wrap">
     <div class="row">
       <div class="iphone-wrap">
-        <div class="iphone" id="main-top">
+        <div class="iphone right" id="main-top">
           <img src="/assets/img/phones/phone-size.png" alt="" width="326" height="680">
         </div>
       </div>

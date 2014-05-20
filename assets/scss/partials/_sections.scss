@@ -1,0 +1,47 @@
+section {
+  clear: both;
+  text-align: center;
+
+  &.white {
+    background: #fff;
+  }
+
+  &.color {
+    background: lighten($brand-primary, 50%);
+  }
+
+  .iphone {
+    clear: both;
+    float: none;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (min-width: $screen-md-min) {
+  section {
+    text-align: left;
+    // Vertically align the text on desktop sizes.
+    .table {
+      display: table;
+      height: 665px;
+
+      .cell {
+        display: table-cell;
+        height: 100%;
+        vertical-align: middle;
+        width: 100%;
+      }
+    }
+
+    .iphone {
+      margin: -640px 20px 20px;
+      &.left {
+        float: left;
+      }
+
+      &.right {
+        float: right;
+      }
+    }
+  }
+}

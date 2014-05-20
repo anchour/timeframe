@@ -15,6 +15,12 @@
     height: auto !important;
     max-width: 100%;
   }
+
+  // Lazyload plugin functionality. Uses just a transparent bg
+  // which is swapped out when the user scrolls down to it.
+  &.lazy {
+    background-image: url(/assets/img/phones/phone-size.png);
+  }
 }
 .iphone-wrap {
   padding: 0 20px;
@@ -26,7 +32,6 @@
 
 @media screen and (min-width: $screen-sm-min) {
   .iphone {
-    float: right;
     margin-right: 20px;
   }
   .iphone-wrap {
