@@ -27,8 +27,10 @@ include $includesPath . 'header.php';
         </div>
 
         <?php // phone ?>
-        <div class="iphone right lazy" id="divide-conquer" data-original="assets/img/phones/divide-and-conquer.png">
-          <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+        <div class="iphone-wrap">
+          <div class="iphone right lazy" id="divide-conquer" data-original="assets/img/phones/divide-and-conquer.png">
+            <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+          </div>
         </div>
 
       </div>
@@ -51,8 +53,10 @@ include $includesPath . 'header.php';
           </div>
         </div>
 
-        <div class="iphone left lazy" id="see-future" data-original="assets/img/phones/see-the-future.png">
-          <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+        <div class="iphone-wrap">
+          <div class="iphone left lazy" id="see-future" data-original="assets/img/phones/see-the-future.png">
+            <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+          </div>
         </div>
 
       </div>
@@ -75,8 +79,10 @@ include $includesPath . 'header.php';
           </div>
         </div>
 
-        <div class="iphone right lazy" id="save-space" data-original="assets/img/phones/save-space.png">
-          <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+        <div class="iphone-wrap">
+          <div class="iphone right lazy" id="save-space" data-original="assets/img/phones/save-space.png">
+            <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+          </div>
         </div>
 
       </div>
@@ -99,8 +105,10 @@ include $includesPath . 'header.php';
           </div>
         </div>
 
-        <div class="iphone left lazy" id="time-essence" data-original="assets/img/phones/time-is-of-the-essence.png">
-          <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+        <div class="iphone-wrap">
+          <div class="iphone left lazy" id="time-essence" data-original="assets/img/phones/time-is-of-the-essence.png">
+            <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+          </div>
         </div>
 
       </div>
@@ -123,8 +131,10 @@ include $includesPath . 'header.php';
           </div>
         </div>
 
-        <div class="iphone right lazy" id="little-things" data-original="assets/img/phones/its-the-little-things.png">
-          <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+        <div class="iphone-wrap">
+          <div class="iphone right lazy" id="little-things" data-original="assets/img/phones/its-the-little-things.png">
+            <img src="assets/img/phones/phone-size.png" alt="" width="326" height="680">
+          </div>
         </div>
 
       </div>
