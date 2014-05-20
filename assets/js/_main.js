@@ -25,5 +25,7 @@
     });
   }
 
-  $lazy.lazyload();
+  $lazy.lazyload({
+    effect : "fadeIn"
+  });
 }(jQuery);
