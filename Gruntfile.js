@@ -54,12 +54,20 @@ module.exports = function(grunt) {
         files: 'assets/scss/**/*.scss',
         tasks: ['sass']
       },
+      js: {
+        files: [
+          'assets/js/**/*.js',
+          '!assets/js/main.min.js'
+        ],
+        tasks: ['uglify']
+      },
       livereload: {
         files: [
           '**/*.html',
           '**/*.php',
           '!bower_components/**',
           'assets/css/**/*.css',
+          'assets/js/main.min.js',
           'images/**/*.{jpg,gif,svg,jpeg,png}'
         ],
         options: {
