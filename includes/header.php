@@ -9,17 +9,17 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a href="/" class="navbar-brand">
+        <h1><a href="/" class="navbar-brand">
           TimeFrame
-        </a>
+        </a></h1>
       </div>
 
       <div class="collapse navbar-collapse navbar-right" id="navbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">App Store</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#app-store">App Store</a></li>
         </ul>
       </div>
     </div>
